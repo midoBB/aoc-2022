@@ -39,4 +39,4 @@ build/
 
 
 ### DO NOT INCLUDE TEST INPUTS ###
-src/main/resources
+src/main/resources/*
