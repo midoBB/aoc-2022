@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d491c48d-5984-4fd3-817a-3a23174243b4" name="Changes" comment="">
+    <list default="true" id="d491c48d-5984-4fd3-817a-3a23174243b4" name="Changes" comment="Day02">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/aoc/Day02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/aoc/Day01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/aoc/Day01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.nix-profile/lib/openjdk/lib/src.zip!/java.base/java/util/stream/Collectors.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,7 +54,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "/home/mohamed/Workspace/aoc-2022",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -73,7 +76,8 @@
       <workItem from="1669871905720" duration="104000" />
       <workItem from="1669872016028" duration="374000" />
       <workItem from="1669872398466" duration="294000" />
-      <workItem from="1669897370998" duration="1459000" />
+      <workItem from="1669897370998" duration="1563000" />
+      <workItem from="1669963110369" duration="3289000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1669872684409</created>
@@ -82,11 +86,24 @@
       <option name="project" value="LOCAL" />
       <updated>1669872684409</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day01">
+      <created>1669898924321</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669898924321</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Day01" />
+    <MESSAGE value="Day02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day02" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
