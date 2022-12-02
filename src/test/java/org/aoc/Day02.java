@@ -3,89 +3,36 @@ package org.aoc;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import java.util.List;
+import java.util.Map;
+
+import static java.util.Map.entry;
 
 class Day02 {
+    private static final Map<String, Integer> part1 = Map.ofEntries(
+            entry("A X", 4), entry("B X", 1), entry("C X", 7),
+            entry("A Y", 8), entry("B Y", 5), entry("C Y", 2),
+            entry("A Z", 3), entry("B Z", 9), entry("C Z", 6)
+    );
+    private static final Map<String, Integer> part2 = Map.ofEntries(
+            entry("A X", 3), entry("B X", 1), entry("C X", 2),
+            entry("A Y", 4), entry("B Y", 5), entry("C Y", 6),
+            entry("A Z", 8), entry("B Z", 9), entry("C Z", 7)
+    );
 
-  @Test void firstPuzzle() throws IOException {
-    final var input = Utils.readInput("Day02");
-    final var res =
-      input.stream().map(Day02::rpsScore).reduce(Integer::sum).orElseThrow();
-    System.out.println(res);
-  }
-
-  @Test void secondPuzzle() throws IOException {
-    final var input =
-      Utils.readInput("Day02").stream().filter(it -> !it.isBlank());
-    final var res =
-      input.map(Day02::rpsMake).reduce(Integer::sum).orElseThrow();
-    System.out.println(res);
-  }
-
-  private static int rpsMake(String game) {
-    final var hands = List.of(game.split(" "));
-    final var opp = hands.get(0);
-    final var result = hands.get(1);
-    final var me = getMyHandFromResult(opp, result);
-    return calculateGameScore(opp, me);
-  }
-
-  private static String getMyHandFromResult(String opp, String result) {
-    if ("A".equals(opp)) {
-      if ("X".equals(result))
-        return "Z";
-      else if ("Y".equals(result))
-        return "X";
-      else
-        return "Y";
-    } else if ("B".equals(opp)) {
-      if ("X".equals(result))
-        return "X";
-      else if ("Y".equals(result))
-        return "Y";
-      else
-        return "Z";
-    } else {
-      if ("X".equals(result))
-        return "Y";
-      else if ("Y".equals(result))
-        return "Z";
-      else
-        return "X";
+    @Test
+    void firstPuzzle() throws IOException {
+        final var input = Utils.readInput("Day02");
+        final var res =
+                input.stream().map(part1::get).reduce(Integer::sum).orElseThrow();
+        System.out.println(res);
     }
-  }
 
-  private static int rpsScore(String game) {
-    final var hands = List.of(game.split(" "));
-    final var opp = hands.get(0);
-    final var me = hands.get(1);
-    return calculateGameScore(opp, me);
-  }
-
-  private static int calculateGameScore(String opp, String me) {
-    int score = 0;
-    if ("X".equals(me)) {
-      score += 1;
-      if ("A".equals(opp)) {
-        score += 3;
-      } else if ("C".equals(opp)) {
-        score += 6;
-      }
-    } else if ("Y".equals(me)) {
-      score += 2;
-      if ("A".equals(opp)) {
-        score += 6;
-      } else if ("B".equals(opp)) {
-        score += 3;
-      }
-    } else {
-      score += 3;
-      if ("B".equals(opp)) {
-        score += 6;
-      } else if ("C".equals(opp)) {
-        score += 3;
-      }
+    @Test
+    void secondPuzzle() throws IOException {
+        final var input =
+                Utils.readInput("Day02").stream().filter(it -> !it.isBlank());
+        final var res =
+                input.map(part2::get).reduce(Integer::sum).orElseThrow();
+        System.out.println(res);
     }
-    return score;
-  }
 }
