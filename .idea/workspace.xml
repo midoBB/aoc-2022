@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d491c48d-5984-4fd3-817a-3a23174243b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/aoc/Day03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/aoc/Day02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/aoc/Day02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,7 +65,23 @@
       <recent name="org.aoc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day02.secondPuzzle">
+  <component name="RunManager" selected="JUnit.Day03">
+    <configuration name="Day02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aoc-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.aoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.aoc" />
+      <option name="MAIN_CLASS_NAME" value="org.aoc.Day02" />
+      <option name="METHOD_NAME" value="secondPuzzle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Day02.firstPuzzle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc-2020" />
       <extension name="coverage">
@@ -98,8 +114,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aoc-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.aoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.aoc" />
+      <option name="MAIN_CLASS_NAME" value="org.aoc.Day03" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day03" />
+        <item itemvalue="JUnit.Day02" />
         <item itemvalue="JUnit.Day02.secondPuzzle" />
         <item itemvalue="JUnit.Day02.firstPuzzle" />
       </list>
@@ -118,7 +151,9 @@
       <workItem from="1669872398466" duration="294000" />
       <workItem from="1669897370998" duration="1563000" />
       <workItem from="1669963110369" duration="3502000" />
-      <workItem from="1669983438210" duration="937000" />
+      <workItem from="1669983438210" duration="1009000" />
+      <workItem from="1670044075164" duration="160000" />
+      <workItem from="1670044241961" duration="2811000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1669872684409</created>
@@ -141,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669969790058</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day02">
+      <created>1669984432163</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669984432163</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +191,17 @@
     <MESSAGE value="Day01" />
     <MESSAGE value="Day02" />
     <option name="LAST_COMMIT_MESSAGE" value="Day02" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/aoc/Day03.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
