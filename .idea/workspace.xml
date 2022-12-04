@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d491c48d-5984-4fd3-817a-3a23174243b4" name="Changes" comment="Day03">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/aoc/Day04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d491c48d-5984-4fd3-817a-3a23174243b4" name="Changes" comment="Day04" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +173,7 @@
       <workItem from="1670044241961" duration="2811000" />
       <workItem from="1670094880881" duration="324000" />
       <workItem from="1670095211982" duration="4000" />
-      <workItem from="1670139523753" duration="1561000" />
+      <workItem from="1670139523753" duration="1672000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1669872684409</created>
@@ -206,14 +203,22 @@
       <option name="project" value="LOCAL" />
       <updated>1669984432163</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day04">
+      <created>1670141185699</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670141185699</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="Day01" />
     <MESSAGE value="Day02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day02" />
+    <MESSAGE value="Day04" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day04" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
