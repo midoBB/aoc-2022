@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d491c48d-5984-4fd3-817a-3a23174243b4" name="Changes" comment="Day04" />
+    <list default="true" id="d491c48d-5984-4fd3-817a-3a23174243b4" name="Changes" comment="Day04">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/aoc/Day05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +32,8 @@
     <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/one/util/streamex/0.8.1/streamex-0.8.1.jar!/one/util/streamex/RangeBasedSpliterator.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.nix-profile/lib/openjdk/lib/src.zip!/java.base/java/util/AbstractCollection.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.nix-profile/lib/openjdk/lib/src.zip!/java.base/java/util/stream/Collectors.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -65,39 +70,7 @@
       <recent name="org.aoc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day04.secondPuzzle">
-    <configuration name="Day02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aoc-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.aoc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.aoc" />
-      <option name="MAIN_CLASS_NAME" value="org.aoc.Day02" />
-      <option name="METHOD_NAME" value="secondPuzzle" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day02.secondPuzzle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aoc-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.aoc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.aoc" />
-      <option name="MAIN_CLASS_NAME" value="org.aoc.Day02" />
-      <option name="METHOD_NAME" value="secondPuzzle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Day05">
     <configuration name="Day03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc-2020" />
       <extension name="coverage">
@@ -145,13 +118,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aoc-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.aoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.aoc" />
+      <option name="MAIN_CLASS_NAME" value="org.aoc.Day05" />
+      <option name="METHOD_NAME" value="firstPuzzle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day05.firstPuzzle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aoc-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.aoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.aoc" />
+      <option name="MAIN_CLASS_NAME" value="org.aoc.Day05" />
+      <option name="METHOD_NAME" value="firstPuzzle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day05" />
+        <item itemvalue="JUnit.Day05.firstPuzzle" />
         <item itemvalue="JUnit.Day04.secondPuzzle" />
         <item itemvalue="JUnit.Day04.firstPuzzle" />
         <item itemvalue="JUnit.Day03" />
-        <item itemvalue="JUnit.Day02" />
-        <item itemvalue="JUnit.Day02.secondPuzzle" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +179,7 @@
       <workItem from="1670094880881" duration="324000" />
       <workItem from="1670095211982" duration="4000" />
       <workItem from="1670139523753" duration="1672000" />
+      <workItem from="1670264534247" duration="7817000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1669872684409</created>
@@ -227,6 +233,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/aoc/Day03.java</url>
           <line>28</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/aoc/Day05.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/aoc/Day05.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
