@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d491c48d-5984-4fd3-817a-3a23174243b4" name="Changes" comment="Day04">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/aoc/Day05.java" afterDir="false" />
+    <list default="true" id="d491c48d-5984-4fd3-817a-3a23174243b4" name="Changes" comment="Day05 I'm sorry for every human being out there that has to read this at any point">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/aoc/Day06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,38 +70,7 @@
       <recent name="org.aoc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day05">
-    <configuration name="Day03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aoc-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.aoc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.aoc" />
-      <option name="MAIN_CLASS_NAME" value="org.aoc.Day03" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day04.firstPuzzle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aoc-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.aoc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.aoc" />
-      <option name="MAIN_CLASS_NAME" value="org.aoc.Day04" />
-      <option name="METHOD_NAME" value="firstPuzzle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Day06.secondPuzzle">
     <configuration name="Day04.secondPuzzle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc-2020" />
       <extension name="coverage">
@@ -150,13 +119,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aoc-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.aoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.aoc" />
+      <option name="MAIN_CLASS_NAME" value="org.aoc.Day06" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day06.secondPuzzle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aoc-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.aoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.aoc" />
+      <option name="MAIN_CLASS_NAME" value="org.aoc.Day06" />
+      <option name="METHOD_NAME" value="secondPuzzle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day06.secondPuzzle" />
+        <item itemvalue="JUnit.Day06" />
         <item itemvalue="JUnit.Day05" />
         <item itemvalue="JUnit.Day05.firstPuzzle" />
         <item itemvalue="JUnit.Day04.secondPuzzle" />
-        <item itemvalue="JUnit.Day04.firstPuzzle" />
-        <item itemvalue="JUnit.Day03" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +179,8 @@
       <workItem from="1670094880881" duration="324000" />
       <workItem from="1670095211982" duration="4000" />
       <workItem from="1670139523753" duration="1672000" />
-      <workItem from="1670264534247" duration="7817000" />
+      <workItem from="1670264534247" duration="8069000" />
+      <workItem from="1670311740545" duration="3105000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1669872684409</created>
@@ -216,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670141185699</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Day05 I'm sorry for every human being out there that has to read this at any point">
+      <created>1670272600083</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670272600083</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,7 +232,8 @@
     <MESSAGE value="Day01" />
     <MESSAGE value="Day02" />
     <MESSAGE value="Day04" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day04" />
+    <MESSAGE value="Day05 I'm sorry for every human being out there that has to read this at any point" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day05 I'm sorry for every human being out there that has to read this at any point" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -233,16 +242,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/aoc/Day03.java</url>
           <line>28</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/aoc/Day05.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/aoc/Day05.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
