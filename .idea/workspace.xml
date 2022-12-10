@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d491c48d-5984-4fd3-817a-3a23174243b4" name="Changes" comment="Day08: cheating">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/aoc/Day09.java" afterDir="false" />
+    <list default="true" id="d491c48d-5984-4fd3-817a-3a23174243b4" name="Changes" comment="Day09: proud">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/aoc/Day10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +21,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -50,20 +51,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "/home/mohamed/Workspace/aoc-2022",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mohamed/Workspace/aoc-2022&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.aoc" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -71,23 +75,7 @@
       <recent name="org.aoc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day09.secondPuzzle">
-    <configuration name="Day08.firstPuzzle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aoc-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.aoc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.aoc" />
-      <option name="MAIN_CLASS_NAME" value="org.aoc.Day08" />
-      <option name="METHOD_NAME" value="firstPuzzle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Day10.firstPuzzle">
     <configuration name="Day08.secondPuzzle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc-2020" />
       <extension name="coverage">
@@ -151,13 +139,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day10.firstPuzzle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aoc-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.aoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.aoc" />
+      <option name="MAIN_CLASS_NAME" value="org.aoc.Day10" />
+      <option name="METHOD_NAME" value="firstPuzzle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day10.firstPuzzle" />
         <item itemvalue="JUnit.Day09.secondPuzzle" />
         <item itemvalue="JUnit.Day09.firstPuzzle" />
         <item itemvalue="JUnit.Day09" />
         <item itemvalue="JUnit.Day08.secondPuzzle" />
-        <item itemvalue="JUnit.Day08.firstPuzzle" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +195,8 @@
       <workItem from="1670519697990" duration="313000" />
       <workItem from="1670564778979" duration="1307000" />
       <workItem from="1670566659341" duration="44000" />
-      <workItem from="1670610171904" duration="4710000" />
+      <workItem from="1670610171904" duration="4928000" />
+      <workItem from="1670662806046" duration="12593000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1669872684409</created>
@@ -263,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670520004879</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Day09: proud">
+      <created>1670615082622</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670615082623</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,7 +287,8 @@
     <MESSAGE value="Day06" />
     <MESSAGE value="Day07" />
     <MESSAGE value="Day08: cheating" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day08: cheating" />
+    <MESSAGE value="Day09: proud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day09: proud" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -286,9 +299,9 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/aoc/Day09.java</url>
-          <line>93</line>
-          <option name="timeStamp" value="31" />
+          <url>file://$PROJECT_DIR$/src/test/java/org/aoc/Day10.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.NoSuchElementException" package="java.util" />
